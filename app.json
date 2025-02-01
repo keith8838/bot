@@ -1,0 +1,27 @@
+{
+  "name": "Telegram-Client",
+  "description": "Kişisel Telegram Hesabı ile Mesaj Gönderme Uygulaması",
+  "repository": "https://github.com/username/repository", 
+  "logo": "https://url_to_logo.png",
+  "keywords": ["python", "telegram", "api"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash",
+      "required": true
+    },
+    "PHONE_NUMBER": {
+      "description": "Telegram telefon numaran",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Free"
+    }
+  }
+}
